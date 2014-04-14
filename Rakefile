@@ -5,6 +5,8 @@ require 'motion/project/template/ios'
 begin
   require 'bundler'
   Bundler.require
+  require 'bubble-wrap/ui'
+  require 'bubble-wrap/camera'
 rescue LoadError
 end
 
